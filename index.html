@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ECDPW</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <!-- Fonts -->
+
+
+
+
+        <!-- CSS -->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+
+        <!-- Js -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+        
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/mail.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+         new WOW(
+            ).init();
+        </script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-57708809-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+    </head>
+    <body>
+
+
+    <header style="background-color: #6fbf39;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <a href="#" class="logo">
+                        <img src="images/logoo.png" alt="" style="width: 200px;">
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 col-sm-6">
+                    <div class="menu">
+                        <nav  class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="#banner" >Home</a></li>
+                                        <li><a href="#service">Service</a></li>
+                                        <li><a href="#feature">Feature</a></li>
+                                        <li><a href="#utility">Utility</a></li>
+                                        <li><a href="#subscribe">Contact</a></li>
+                                    </ul>
+                                  
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-3">
+                    <ul class="social-info">
+                        <li><a href="#" style="color: #4267B2;"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" style="color: #00acee;"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" style="color: #0e76a8;"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#" style="color: #db4a39;"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+
+    <section id="banner" class="wow fadeInUp">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="block">
+                        <img class="app-img img-responsive" src="images/adddd.png" alt="" style="height: 400px; width: 440px;">
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-6">
+                    <div class="block">
+                        <h2>
+                            The PIMO Mobile Scanning App Provides Capturing Capabilities Of Current Building Process.
+                        </h2>
+                        <p>
+                            Scan, Manage... Imagine
+                        </p>
+
+                        <ul class="download-btn" >
+                            <li>
+                                <a href="#"  class="btn btn-default btn-apple"> <i class="fa fa-apple"></i>App store</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-andriod"><i class="fa fa-android"></i>Play Store</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-windows"><i class="fa fa-windows"></i>Windows Store</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="service"  style="background-color: #EEEEEE;">
+        <div class="container">
+            <div class="service-wrapper ">
+                <div class="row" >
+                    <div class="col-md-3 col-sm-6 " style="border-right: 1px solid lightgrey;">
+                        <div class="block wow fadeInRight" data-wow-delay="1s">
+                            <div class="icon">
+                               <i class="fa fa-camera"></i> 
+                            </div>
+                            
+                            <h3>Capture images</h3>
+                            <p>A camera that captures images on site </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" style="border-right: 1px solid lightgrey;">
+                        <div class="block wow fadeInRight" data-wow-delay="1.3s">
+                            <div class="icon">
+                                <i class="fa fa-file-text"></i>
+                            </div>
+                            <h3>Scan Documents</h3>
+                            <p>Putting the Paperless Office within reach</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" style="border-right: 1px solid lightgrey;">
+                        <div class="block wow fadeInRight" data-wow-delay="1.6s">
+                            <div class="icon">
+                                <i class="fa fa-location-arrow"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>Remarkable Value. Unbeatable Location.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-3 col-sm-6" >
+                        <div class="block wow fadeInRight" data-wow-delay="1.9s">
+                            <div class="icon">
+                                <i class="fa fa-tasks"></i>
+                            </div>
+                            <h3>View tasks assinged</h3>
+                            <p>Access Tasks Assigned to you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+    
+
+
+
+
+
+    <section id="feature" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <h2 class="title">Our Focused on Feature</h2>
+
+                    <div class="feature-item" >
+
+                        <div class="media" >
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-camera"></i>
+                            </div>
+                            <div class="media-body" >
+                                <h4 class="media-heading">Camera</h4>
+                                <p>The Camera Feature Is To Capture Onsite Images Of The Progress Of The Project And Then Save It To The Online Service.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="media">
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-file-text"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Scanning</h4>
+                                <p>Document Scanner At The Tip of your Finger. This Feature Allows you To Scan A Document Fast And Upload To An Online Server.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div class="media">
+                            <div class="pull-left icon" href="#">
+                                <i class="fa fa-location-arrow"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Current Location</h4>
+                                <p>This Feature Allows You To Track The Captured Site Quickly By Saving The Exact Coordinates Where The Picture Was Uploaded.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <img class="img-responsive" src="images/home.png" alt="" style="height: 430px; width: 450;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="utility">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                    <img class="img-responsive" src="images/latest location.png" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Amazing Compatibility.</h2>
+                        <p>
+                           You Are Able To See Your Current Location On A Map View And Your Current Coordinates Are Also Displayed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="utility-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
+                    <div class="block">
+                        <h2>Remarkable Features</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisquam est, 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
+                    <img class="img-responsive" src="images/phonenono.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="subscribe" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown" data-wow-delay=".8s">
+                    <div class="block">
+                        <div class="title text-center">
+                            <h2>Contact</h2>
+                            <!-- <p><i class="fa fa-phone"></i>  043 555 0622</p>
+                            <p><i class="fa fa-envelope"></i>  info@AyamahTibaa.co.za</p> -->
+                        </div>
+                        
+                        
+
+                        <form class="form-inline text-center col-sm-12 col-xs-12" role="form">
+                            <div class="form-group">
+                                <input type="text"  id="name"  placeholder="Firstname" style="height: 15px;"><br><br>
+                                <input type="text"  id="lname"  placeholder="Lastname" style="height: 15px;"><br><br>
+                                <input  id="contact" type="number" placeholder="Enter Contact number..." style="height: 15px;"><br><br>
+                                <input  id="persal" type="number" placeholder="persal number" style="height: 15px;"><br><br>
+                                <input type="text"  id="message" placeholder="Type Message here..." style="height: 100px;">
+                                
+                                
+                            </div><br><br>
+                            <button style="width: 20%; background-color: #6fbf39;" onclick="add(), time()" type="button" name="submit" >
+                                <!-- <i class="fa fa-paper-plane"></i> -->Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="wow fadeInUp" data-wow-delay=".8s">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                        <a class="footer-logo"href="#">
+                            <img class="img-responsive" src="images/logoo.png" alt="" >
+                        </a>
+                    <p>Copyright © 2022 Ayamah Tibaa. All rights reserved. Designed & developed by <a style="color: gray;" href="https://www.Ayamahtibaa.co.za">Ayamahtibaa.co.za</a> </p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<!-- https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js -->
+
+
+<!-- // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCY5SNjUYPlfhxGUtb0gvVgrAYSwIR3RLA",
+  authDomain: "pimolandingpage.firebaseapp.com",
+  projectId: "pimolandingpage",
+  storageBucket: "pimolandingpage.appspot.com",
+  messagingSenderId: "156986526742",
+  appId: "1:156986526742:web:a41bedf69597d30c95b937",
+  measurementId: "G-NDQRYS0967"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app); -->
